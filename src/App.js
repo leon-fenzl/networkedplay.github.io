@@ -14,8 +14,8 @@ function App(){
     <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<Homepage/>}/>
-          <Route path="/about" element={<About/>}/>
+          <Route path="/networkedplay.github.io" element={<Homepage/>}/>
+          <Route path="/networkedplay.github.io/about" element={<About/>}/>
         </Routes>
       <Footer/>
     </BrowserRouter>
