@@ -1,0 +1,60 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  
+  text-decoration: none;
+}
+.Logo{
+  display: flex-start;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+}
+.Logo:hover{
+  color: rgb(243, 211, 70);
+}
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.links:hover{
+  color: rgb(243, 211, 70);
+}
+.btn{
+  color: #ffffff;
+}
+.bars{
+  display: none;
+  color: black;
+}
+.bars:hover{
+  color: rgb(243, 211, 70);
+}
+@media screen and (max-width: 768px) {
+  .menu{
+    display: none;
+  }
+  .bars{
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+    transform: translate(-100%,110%);
+    font-size:1.8rem;
+    cursor:pointer;
+  }
+}
