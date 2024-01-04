@@ -1,13 +1,11 @@
 import React from "react";
 import "../../Styles/body.css";
-function Homepage(){
+export default function Homepage(){
   return(
-    <section className="title">
-      <iframe frameborder="0" src="https://itch.io/embed-upload/9413682?color=333333" allowfullscreen="" width="1280" height="720">
-        <a href="https://blazingworks.itch.io/networkedplay">Play Networkedplay on itch.io</a>
+    <div className="game">
+      <iframe frameborder="0" src="https://itch.io/embed-upload/9413682?color=333333" allowfullscreen="" height="100vw">
+        <a href="https://itch.io/embed-upload/9413682?color=333333"></a>
       </iframe>
-    </section>
+    </div>
   );
 }
-
-export default Homepage;

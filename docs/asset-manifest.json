@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "https://leon-fenzl.github.io/networkedplay.github.io/static/css/main.702f970f.css",
-    "main.js": "https://leon-fenzl.github.io/networkedplay.github.io/static/js/main.698fad5b.js",
+    "main.css": "https://leon-fenzl.github.io/networkedplay.github.io/static/css/main.9de984b8.css",
+    "main.js": "https://leon-fenzl.github.io/networkedplay.github.io/static/js/main.c5833d01.js",
     "index.html": "https://leon-fenzl.github.io/networkedplay.github.io/index.html",
-    "main.702f970f.css.map": "https://leon-fenzl.github.io/networkedplay.github.io/static/css/main.702f970f.css.map",
-    "main.698fad5b.js.map": "https://leon-fenzl.github.io/networkedplay.github.io/static/js/main.698fad5b.js.map"
+    "main.9de984b8.css.map": "https://leon-fenzl.github.io/networkedplay.github.io/static/css/main.9de984b8.css.map",
+    "main.c5833d01.js.map": "https://leon-fenzl.github.io/networkedplay.github.io/static/js/main.c5833d01.js.map"
   },
   "entrypoints": [
-    "static/css/main.702f970f.css",
-    "static/js/main.698fad5b.js"
+    "static/css/main.9de984b8.css",
+    "static/js/main.c5833d01.js"
   ]
 }

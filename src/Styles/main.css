@@ -10,6 +10,10 @@
   background-color: rgb(236, 235, 175);
 }
 
+.paulaItalic{
+  font-style: italic;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -17,14 +21,10 @@ footer {
   align-items: center;
   position: fixed;
   text-decoration: none;
-  
+  background-color:rgb(255, 60, 229);
   left: 0;
   bottom: 0;
-  height: 100px;
+  height: 50px;
   width: 100%;
   text-align: center;
-}
-
-.paulaItalic{
-  font-style: italic;
 }
