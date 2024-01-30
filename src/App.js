@@ -11,8 +11,8 @@ export default function App(){
     <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path="networkedplay.art/" element={<Homepage/>}/>
-          <Route path="networkedplay.art/about/" element={<About/>}/>
+          <Route path="/" element={<Homepage/>}/>
+          <Route path="/about" element={<About/>}/>
         </Routes>
       <Footer/>
     </BrowserRouter>
