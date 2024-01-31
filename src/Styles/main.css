@@ -1,19 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 *{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: 'Teko', sans-serif;
+  /*font-family: 'Teko', sans-serif;*/
 }
-
 :root{
-  background-color: rgb(236, 235, 175);
+  background-color: rgb(0, 0, 0);
 }
-
-.paulaItalic{
+.footer-text{
+  font-family:Helvetica, sans-serif;
   font-style: italic;
 }
-
 footer {
   display: flex;
   flex-direction: column;
@@ -21,7 +18,7 @@ footer {
   align-items: center;
   position: fixed;
   text-decoration: none;
-  background-color:rgb(255, 60, 229);
+  background-color:rgba(120, 120, 120, 0.25);
   left: 0;
   bottom: 0;
   height: 50px;

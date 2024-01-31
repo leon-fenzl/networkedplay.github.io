@@ -1,16 +1,17 @@
+@font-face {
+  font-family: 'Aquatico-Regular';
+  src: url('../Styles/Fonts/Aquatico-Regular.otf');
+}
 .title{
   display: flex;
   justify-content: center;
   text-align: center;
   height: 100%;
   margin: 0;
-  background-color:rgb(255, 60, 229);
 }
 .gameDiv{
   display: flex;
   height: 100%;
   justify-content: center;
   margin: 0;
-  background-color:rgb(255, 60, 229);
 }
-
