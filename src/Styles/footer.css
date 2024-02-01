@@ -1,0 +1,21 @@
+footer {
+  position: fixed;
+  background-color:rgba(120, 120, 120, 0.25);
+  text-align: center;
+
+  width: 100%;
+  /*left: 0;*/
+  /*bottom: 0;*/
+}
+.footer-flexbox{
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+}
+.footer-text{
+  font-family:Helvetica, sans-serif;
+  font-style: italic;
+  color: whitesmoke;
+  text-decoration: none;
+}

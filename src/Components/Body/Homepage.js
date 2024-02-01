@@ -2,15 +2,10 @@ import React from "react";
 import "../../Styles/body.css";
 export default function Homepage(){
   return(
-    <div className="gameDiv">
-      <iframe frameborder="0" src="https://itch.io/embed-upload/9613862?color=333333" allowfullscreen="" width="1280" height="720">
-        <a href="https://blazingworks.itch.io/networkedplay"></a>
-      </iframe>
+    <div className="homepage">
+      <a href="/game">
+        <button className="btt-play"><h1>Play!</h1></button>
+      </a>
     </div>
   );
 }
-/*
-  <iframe frameborder="0" src="https://itch.io/embed-upload/9613862?color=333333" allowfullscreen="" width="1280" height="720">
-    <a href="https://blazingworks.itch.io/networkedplay"></a>
-  </iframe>
-*/
