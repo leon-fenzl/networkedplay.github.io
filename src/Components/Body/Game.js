@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Styles/body.css";
+import "../Styles/body.css";
 export default function Game(){
   return(
     <div className="gameDiv">
