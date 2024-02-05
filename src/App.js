@@ -6,7 +6,6 @@ import Homepage from "./Components/Body/Homepage.js";
 import Game from "./Components/Body/Game.js"
 import About from "./Components/Body/About.js";
 import Footer from './Components/Footer/Footer.js';
-
 export default function App(){
   return(
     <BrowserRouter>
