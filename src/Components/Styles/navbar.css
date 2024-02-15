@@ -2,7 +2,7 @@
   font-family: 'Aquatico-Regular';
   src: url('../Styles/Fonts/Aquatico-Regular.otf');
 }
-nav{
+.navbar{
   font-family: Aquatico-Regular;
   display: flex;
   justify-content: space-around;

@@ -29,8 +29,10 @@ iframe{
 .empty4{
   grid-area: empty4
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
   .gridCon{
+    display: grid;
+    height: 70vh;
     grid-template-columns:4fr;
     grid-template-rows: 1fr 4fr 1fr;
     grid-template-areas:
@@ -39,7 +41,23 @@ iframe{
       "empty4";
   }
   iframe{
-    width:70vh;
-    height:40vh;
+    width:100vw;
+    height:40svh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .gridCon{
+    display: grid;
+    height: 50vh;
+    grid-template-columns:4fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-areas:
+      "empty1"
+      "game"
+      "empty4";
+  }
+  iframe{
+    width:100vw;
+    height:40svh;
   }
 }

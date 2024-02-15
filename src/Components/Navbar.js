@@ -1,12 +1,12 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import {FaBars} from 'react-icons/fa';
-import '../Styles/navbar.css';
-import imgLogo from "../images/Logo.png";
-import imgMenu from "../images/Btt_Menu.png";
-const Navbar=()=>{
+import "../Components/Styles/navbar.css";
+import imgLogo from "../Components/images/Logo.png";
+import imgMenu from "../Components/images/Btt_Menu.png";
+export default function Navbar(){
   return(
-    <nav className="navbar">
+    <div className="navbar">
       <Link to="/" className="Logo">
         <img src={imgLogo} alt="Logo"/>
       </Link>
@@ -16,7 +16,6 @@ const Navbar=()=>{
       <ul className="menu">
         <Link to="/about" className="links">About</Link>
       </ul>
-    </nav>
+    </div>
   );
 }
-export default Navbar;

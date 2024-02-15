@@ -1,11 +1,14 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import "../Styles/body.css";
-import "../Styles/homeBody.css"
-import bttPlay from "../images/Btt_Play.png";
+import Navbar from "../Components/Navbar.js";
+import Footer from "../Components/Footer.js";
+import "../Components/Styles/body.css";
+import "../Components/Styles/homeBody.css"
+import bttPlay from "../Components/images/Btt_Play.png";
 export default function Homepage(){
   return(
-    <div className="grid">
+    <div className="container">
+      <nav><Navbar/></nav>
       <div className="empty1"></div>
       <div className="empty2"></div>
       <div id="middle">
@@ -16,6 +19,7 @@ export default function Homepage(){
       </div>
       <div className="empty3"></div>
       <div className="empty4"></div>
+      <footer><Footer/></footer>
     </div>
   );
 }
