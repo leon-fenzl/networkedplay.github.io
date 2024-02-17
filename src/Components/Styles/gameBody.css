@@ -1,48 +1,47 @@
 .gridCon{
   display: grid;
-  height: 90vh;
+  height: 100vh;
   /*background-color: rgb(235, 238, 175);*/
   grid-template-columns: 0.1fr 4fr 0.1fr;
   grid-template-rows: 0.1fr 4fr 0.1fr;
   grid-template-areas:
-  "empty1 empty1 empty1"
-  "empty2 game empty3"
-  "empty4 empty4 empty4";
+  "nav nav nav"
+  "empty1 game empty2"
+  "footer footer footer";
 }
 iframe{
   width:140vh;
   height:80vh;
 }
+nav{
+  grid-area: nav;
+}
 .empty1{
   grid-area: empty1
+}
+.game{
+  grid-area: game
 }
 .empty2{
   grid-area: empty2
 }
-.game{
-  grid-area: game
-
-}
-.empty3{
-  grid-area: empty3
-}
-.empty4{
-  grid-area: empty4
+footer{
+  grid-area: footer;
 }
 @media screen and (max-width: 760px) {
   .gridCon{
     display: grid;
     height: 70vh;
     grid-template-columns:4fr;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: auto auto auto;
     grid-template-areas:
-      "empty1"
-      "game"
-      "empty4";
+    "nav"
+    "game"
+    "footer";;
   }
   iframe{
     width:100vw;
-    height:40svh;
+    height:80vh;
   }
 }
 @media screen and (max-width: 480px) {
@@ -50,11 +49,13 @@ iframe{
     display: grid;
     height: 50vh;
     grid-template-columns:4fr;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
-      "empty1"
-      "game"
-      "empty4";
+    "nav"
+    "empty1"
+    "game"
+    "empty2"
+    "footer";
   }
   iframe{
     width:100vw;

@@ -1,20 +1,11 @@
-.footer-custom{
-  display: flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content:center;
-  position: absolute;
-  background-color:rgba(120, 120, 120, 0.25);
-  text-align: center;
-  width: 100%;
-  /*left: 0;*/
-  bottom: 0;
-}
+
 .footer-flexbox{
   display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content:center;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .footer-text{
   font-family:Helvetica, sans-serif;
