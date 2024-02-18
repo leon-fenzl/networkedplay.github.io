@@ -7,18 +7,14 @@ import "../Components/Styles/homeBody.css"
 import bttPlay from "../Components/images/Btt_Play.png";
 export default function Homepage(){
   return(
-    <div className="container">
+    <div className="home-grid">
       <nav><Navbar/></nav>
       <div className="empty1"></div>
-      <div className="empty2"></div>
-      <div id="middle">
-        <div className="gotogame">
-          <p className="question">Do we connect to play, or we play to connect?</p>
-          <Link to="/game" className="links"><img src={bttPlay} alt="play button"/></Link>
-        </div>
+      <div className="middle">
+        <p className="question">Do we connect to play, or we play to connect?</p>
+        <Link to="/game" className="links"><img src={bttPlay} alt="play button"/></Link>
       </div>
-      <div className="empty3"></div>
-      <div className="empty4"></div>
+      <div className="empty2"></div>
       <footer><Footer/></footer>
     </div>
   );
