@@ -8,7 +8,7 @@ export default function Game(){
       <nav><Navbar/></nav>
         <div className="empty1"></div>
         <div className="gameDiv game" >
-        <iframe frameborder="0" src="https://itch.io/embed-upload/9879056?color=333333" allowfullscreen="" width="1280" height="720">
+        <iframe frameborder="0" src="https://itch.io/embed-upload/9879832?color=333333" allowfullscreen="" width="1280" height="720">
           <a href="https://blazingworks.itch.io/networkedplay"></a>
         </iframe>
         </div>

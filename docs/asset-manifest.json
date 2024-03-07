@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://networkedplay.art/static/css/main.9596f79e.css",
-    "main.js": "https://networkedplay.art/static/js/main.b77cdf55.js",
+    "main.js": "https://networkedplay.art/static/js/main.04df3e5a.js",
     "static/media/Aquatico-Regular.otf": "https://networkedplay.art/static/media/Aquatico-Regular.3c5900da6fbd7a2eaa65.otf",
     "index.html": "https://networkedplay.art/index.html",
     "main.9596f79e.css.map": "https://networkedplay.art/static/css/main.9596f79e.css.map",
-    "main.b77cdf55.js.map": "https://networkedplay.art/static/js/main.b77cdf55.js.map"
+    "main.04df3e5a.js.map": "https://networkedplay.art/static/js/main.04df3e5a.js.map"
   },
   "entrypoints": [
     "static/css/main.9596f79e.css",
-    "static/js/main.b77cdf55.js"
+    "static/js/main.04df3e5a.js"
   ]
 }
