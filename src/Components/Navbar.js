@@ -14,6 +14,7 @@ export default function Navbar(){
         <img src={imgMenu} alt="imgMenu" className="bars"/>
       </Link>
       <ul className="menu">
+        <Link to="/research" className="links">Research</Link>
         <Link to="/about" className="links">About</Link>
       </ul>
     </div>

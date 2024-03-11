@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "../Components/Navbar.js";
 import Footer from "../Components/Footer.js";
+import "../Components/Styles/body.css";
 import "../Components/Styles/gameBody.css";
 export default function Game(){
   return(
-    <div className="gridCon">
+    <div className="gameGrid">
       <nav><Navbar/></nav>
         <div className="empty1"></div>
         <div className="gameDiv game" >

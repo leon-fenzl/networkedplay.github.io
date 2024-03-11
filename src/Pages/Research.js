@@ -2,15 +2,15 @@ import React from "react";
 import {Link} from "react-router-dom";
 import Navbar from "../Components/Navbar.js";
 import Footer from "../Components/Footer.js";
-
-export default function About(){
+import "../Components/Styles/regularGrid.css"
+export default function Research(){
   return(
     <div className="regularGrid">
       <nav><Navbar/></nav>
       <div className="empty1"></div>
       <div className="gridCenter">
         <div className="contentGrid">
-        <div className="contentName"><h2>About</h2></div>
+          <div className="contentName"><h2>Research</h2></div>
           <div className="contentCenter">
             <h3>
               Dummy text

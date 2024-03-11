@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Aquatico-Regular';
+  src: url('../Styles/Fonts/Aquatico-Regular.otf');
+}
+.contentGrid{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 4fr ;
+  grid-template-rows: auto 4fr;
+  grid-template-areas:
+  "contentName"
+  "contentCenter" ;
+}
+@media screen and (max-width: 720px) {
+  .contentGrid{
+    grid-template-columns: 4fr;
+    grid-template-rows: auto 4fr ;
+    grid-template-areas:
+    "contentName"
+    "contentCenter" ;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contentGrid{
+    grid-template-columns: 4fr;
+    grid-template-rows: auto 4fr;
+    grid-template-areas:
+    "contentName"
+    "contentCenter" ;
+  }
+}
+.contentName{
+  font-family: 'Aquatico-Regular';
+  grid-area: contentName;
+  padding: 2%;
+}
+.contentCenter{
+  font-style: italic;
+  grid-area: contentCenter;
+  padding: 2%;
+}

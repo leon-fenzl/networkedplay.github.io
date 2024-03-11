@@ -3,14 +3,16 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 import "./Components/Styles/main.css";
 import Homepage from "./Pages/Homepage.js";
 import About from "./Pages/About.js";
+import Research from "./Pages/Research.js";
 import Game from "./Pages/Game.js";
 export default function App(){
   return(
     <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage/>}/>
-          <Route path="/about" element={<About/>}/>
           <Route path="/game" element={<Game/>}/>
+          <Route path="/research" element={<Research/>}/>
+          <Route path="/about" element={<About/>}/>
         </Routes>
     </BrowserRouter>
   )
