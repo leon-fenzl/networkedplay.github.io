@@ -16,6 +16,7 @@ export default function Navbar(){
       <ul className="menu">
         <Link to="/research" className="links">Research</Link>
         <Link to="/about" className="links">About</Link>
+        <Link to="/credits" className="links">Credits</Link>
       </ul>
     </div>
   );
