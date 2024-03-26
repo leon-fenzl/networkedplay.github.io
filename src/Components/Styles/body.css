@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Aquatico-Regular';
-  src: url('../Styles/Fonts/Aquatico-Regular.otf');
+  src: url('../styles/Fonts/Aquatico-Regular.otf');
 }
 .title{
   display: flex;

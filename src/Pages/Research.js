@@ -1,8 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import Navbar from "../Components/Navbar.js";
-import Footer from "../Components/Footer.js";
-import "../Components/Styles/regularGrid.css"
+import Navbar from "../components/Navbar.js";
+import Footer from "../components/Footer.js";
+import "../components/styles/regularGrid.css"
 export default function Research(){
   return(
     <div className="regularGrid">

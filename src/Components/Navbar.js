@@ -1,9 +1,9 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import {FaBars} from 'react-icons/fa';
-import "../Components/Styles/navbar.css";
-import imgLogo from "../Components/images/Logo.png";
-import imgMenu from "../Components/images/Btt_Menu.png";
+import "./styles/navbar.css";
+import imgLogo from "../components/images/Logo.png";
+import imgMenu from "../components/images/Btt_Menu.png";
 export default function Navbar(){
   return(
     <div className="navbar">

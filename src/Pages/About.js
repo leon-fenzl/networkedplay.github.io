@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import Navbar from "../Components/Navbar.js";
-import Footer from "../Components/Footer.js";
+import Navbar from "../components/Navbar.js";
+import Footer from "../components/Footer.js";
 
 export default function About(){
   return(
