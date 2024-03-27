@@ -21,6 +21,8 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("../images/homeBg.png");
+  background-size: cover;
 }
 .empty2{
   grid-area: empty2;
