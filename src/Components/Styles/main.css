@@ -2,8 +2,9 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  /*font-family: 'Teko', sans-serif;*/
 }
 :root{
   background-color: rgb(2, 2, 2);
+  background-image: url("../images/siteBg.png");
+  background-size: cover;
 }

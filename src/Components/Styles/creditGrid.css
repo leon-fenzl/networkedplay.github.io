@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Aquatico-Regular';
-  src: url('../styles/Fonts/Aquatico-Regular.otf');
+  font-family: 'Dosis-Extralight';
+  src: url('../Styles/Fonts/Dosis/static/Dosis-ExtraLight.ttf');
 }
 .creditGrid{
   display: grid;

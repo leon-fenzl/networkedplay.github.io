@@ -1,12 +1,16 @@
+@font-face {
+  font-family: 'Dosis-Extralight';
+  src: url('../Styles/Fonts/Dosis/static/Dosis-ExtraLight.ttf');
+}
 .regularGrid{
   display: grid;
   height: 100vh;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 0.25fr 4fr 0.25fr;
   grid-template-rows: auto 4fr auto;
   grid-template-areas:
   "nav nav nav"
   "empty1 gridCenter empty2"
-  "footer footer footer";
+  "empty1 footer empty2";
 }
 @media screen and (max-width: 720px) {
   .regularGrid{

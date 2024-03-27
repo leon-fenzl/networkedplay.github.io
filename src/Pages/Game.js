@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../components/Navbar.js";
-import Footer from "../components/Footer.js";
-import "../components/styles/gameBody.css";
+import Navbar from "../Components/Navbar.js";
+import Footer from "../Components/Footer.js";
+import "../Components/Styles/gameBody.css";
 /* width="1280" height="720"*/
 export default function Game(){
   return(

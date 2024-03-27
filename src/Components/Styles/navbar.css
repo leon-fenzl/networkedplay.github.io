@@ -1,9 +1,8 @@
 @font-face {
-  font-family: 'Aquatico-Regular';
-  src: url('../styles/Fonts/Aquatico-Regular.otf');
+  font-family: 'Dosis-Extralight';
+  src: url('../Styles/Fonts/Dosis/static/Dosis-ExtraLight.ttf');
 }
 .navbar{
-  font-family: Aquatico-Regular;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -13,34 +12,16 @@
 .Logo{
   display: flex;
   cursor: pointer;
+  image-rendering: none;
 }
-.Logo:hover{
-  color: rgb(243, 211, 70);
+.imglogo{
+  width: 270px;
+  height: 22px;
+  background-image: url("../images/logoRegular.png");
+  background-size: cover;
 }
-.menu{
-  display: flex;
-  justify-content: flex-end;
-  text-decoration: none;
-}
-.imgMenu{
-  display: flex;
-  justify-content: flex-end;
-  text-decoration: none;
-}
-.links{
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 24px;
-  padding: 10px 20px;
-  margin: 0 10px;
-  cursor: pointer;
-}
-.links:hover{
-  color: rgb(243, 211, 70);
-}
-.btn{
-  color: #ffffff;
+.imglogo:hover{
+  background-image: url("../images/logoHover.png");
 }
 .bars{
   display: none;
@@ -48,6 +29,24 @@
 }
 .bars:hover{
   color: rgb(243, 211, 70);
+}
+.menuLinks{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.linkName{
+  font-family: Dosis-Extralight;
+  font-size: 18pt;
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+.linkName:hover{
+  color: #FF00FF;
+}
+.btn{
+  color: #ffffff;
 }
 @media screen and (max-width: 1000px) {
   .menu{

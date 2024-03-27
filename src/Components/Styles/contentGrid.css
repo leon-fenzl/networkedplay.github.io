@@ -1,42 +1,16 @@
 @font-face {
-  font-family: 'Aquatico-Regular';
-  src: url('../styles/Fonts/Aquatico-Regular.otf');
+  font-family: 'Dosis-Extralight';
+  src: url('../Styles/Fonts/Dosis/static/Dosis-ExtraLight.ttf');
 }
-.contentGrid{
-  display: grid;
+.contents{
+  font-family: 'Dosis-Extralight';
+  display: block;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
-  grid-template-columns: 4fr ;
-  grid-template-rows: auto 4fr;
-  grid-template-areas:
-  "contentName"
-  "contentCenter" ;
 }
-@media screen and (max-width: 720px) {
-  .contentGrid{
-    grid-template-columns: 4fr;
-    grid-template-rows: auto 4fr ;
-    grid-template-areas:
-    "contentName"
-    "contentCenter" ;
-  }
-}
-@media screen and (max-width: 480px) {
-  .contentGrid{
-    grid-template-columns: 4fr;
-    grid-template-rows: auto 4fr;
-    grid-template-areas:
-    "contentName"
-    "contentCenter" ;
-  }
-}
-.contentName{
-  font-family: 'Aquatico-Regular';
-  grid-area: contentName;
-  padding: 2%;
-}
-.contentCenter{
-  font-style: italic;
-  grid-area: contentCenter;
-  padding: 2%;
+.cels{
+  margin: 5%;
 }

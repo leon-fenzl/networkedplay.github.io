@@ -1,8 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import Navbar from "../components/Navbar.js";
-import Footer from "../components/Footer.js";
-import "../components/styles/creditGrid.css"
+import Navbar from "../Components/Navbar.js";
+import Footer from "../Components/Footer.js";
+import "../Components/Styles/creditGrid.css"
 export default function Credits(){
   return(
     <div className="regularGrid">

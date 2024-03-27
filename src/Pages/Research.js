@@ -1,17 +1,17 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import Navbar from "../components/Navbar.js";
-import Footer from "../components/Footer.js";
-import "../components/styles/regularGrid.css"
+import Navbar from "../Components/Navbar.js";
+import Footer from "../Components/Footer.js";
+import "../Components/Styles/regularGrid.css"
 export default function Research(){
   return(
     <div className="regularGrid">
       <nav><Navbar/></nav>
       <div className="empty1"></div>
       <div className="gridCenter">
-        <div className="contentGrid">
-          <div className="contentName"><h2>Research</h2></div>
-          <div className="contentCenter">
+        <div className="contents">
+          <div className="cels">
+            <h2>research</h2>
             <h3>
               Dummy text
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

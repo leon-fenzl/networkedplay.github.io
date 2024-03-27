@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/footer.css";
+import "./Styles/footer.css";
 export default function Footer(){
   return(
     <div className="footer-flexbox">
@@ -10,7 +10,7 @@ export default function Footer(){
           Baltan Laboratories (Netherlands), 
           FZC-Etopia Center for Art & Technology (Spain), 
           Frankfurt School Blockchain Center (Germany) 
-          and MEET Digital Cultural Center (Italy).
+          and MEET Digital Cultural Center (Italy). ©Paula Nishijima
         </p>
       </div>
     </div>
