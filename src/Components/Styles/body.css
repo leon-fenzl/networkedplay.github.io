@@ -24,26 +24,13 @@
   align-items: center;
 }
 .btt-play{
-  text-decoration: none;
-  background-color: palevioletred;
-  color: #FFFFFF;
-  box-shadow: none;
-  border-radius: 8px;
-  border-style: none;
-  box-sizing: border-box;
-  outline: none;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  display: inline-block;
-  
-  padding: 0px 16px;
-  position: relative;
+  background-color: none;
+  background-image: url("");
+  border:none;
 }
 .btt-play:hover,
 .btt-play:focus {
-  background-color: #F082AC;
+  background-image: url("");
 }
 .gameDiv{
   display: flex;

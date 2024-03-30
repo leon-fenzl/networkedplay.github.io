@@ -6,7 +6,7 @@ import "../Components/Styles/body.css";
 import "../Components/Styles/homeBody.css"
 import "../Components/Styles/regularGrid.css"
 import "../Components/Styles/contentGrid.css"
-import bttPlay from "../Components/images/Btt_Play.png";
+import bttPlay from "../Components/images/bttsPaulaSite_play.png";
 export default function Homepage(){
   return(
     <div className="home-grid">
