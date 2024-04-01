@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 import Navbar from "../Components/Navbar.js";
 import Footer from "../Components/Footer.js";
-import "../Components/Styles/creditGrid.css"
+
 export default function Credits(){
   return(
     <div className="regularGrid">
@@ -12,24 +12,24 @@ export default function Credits(){
         <div className="contentGrid">
           <div className="contentName"><h2>Credits</h2></div>
             <div className="creditGrid">
-              <h3 className="creditsType">
+              <h1 className="creditsType">
                 Art and Sounds:
-              </h3>
-              <h3 className="creditsName">
+              </h1>
+              <h1 className="creditsName">
                 Paula Kani Nishijima
-              </h3>
-              <h3 className="creditsType">
+              </h1>
+              <h1 className="creditsType">
                 Game Design:
-              </h3>
-              <h3 className="creditsName">
+              </h1>
+              <h1 className="creditsName">
                 Paula Kani Nishijima - León Fenzl
-              </h3>
-              <h3 className="creditsType">
+              </h1>
+              <h1 className="creditsType">
                 Code:
-              </h3>
-              <h3 className="creditsName">
+              </h1>
+              <h1 className="creditsName">
                 León Fenzl
-              </h3>
+              </h1>
             </div>
           </div>
       </div>
