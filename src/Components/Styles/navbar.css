@@ -4,15 +4,19 @@
 }
 .navbar{
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
   align-items: center;
   height: 10vh;
   text-decoration: none;
 }
 .Logo{
   display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   image-rendering: none;
+  width: auto;
+  height: 100%;
 }
 .imglogo{
   width: 270px;
@@ -23,12 +27,29 @@
 .imglogo:hover{
   background-image: url("../images/logoHover.png");
 }
+.div-bars{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
 .bars{
   display: none;
   color: black;
+  
 }
-.bars:hover{
-  color: rgb(243, 211, 70);
+.bars-menu{
+  display: none;
+}
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  justify-self: flex-end;
+  width: 100%;
+  height: 100%;
 }
 .menuLinks{
   display: flex;
@@ -48,16 +69,11 @@
 .btn{
   color: #ffffff;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 720px) {
   .menu{
     display: none;
   }
   .bars{
-    display:flex;
-    position:absolute;
-    top:2.5%;
-    transform: translate(-50%,120%);
-    font-size:1.8rem;
-    cursor:pointer;
+    display: flex;
   }
 }

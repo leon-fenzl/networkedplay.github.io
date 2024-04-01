@@ -9,7 +9,9 @@ export default function Game(){
       <nav><Navbar/></nav>
         <div className="empty1"></div>
         <div className="game" >
-          <iframe frameborder="0" src="https://leon-fenzl.github.io/networkedplaywebplay/"></iframe>
+        <iframe frameborder="none" src="https://itch.io/embed-upload/10070636?color=000000" allowfullscreen="" width="1280" height="720" allowTransparency="true">
+          <a href="https://blazingworks.itch.io/networkedplay"></a>
+        </iframe>
         </div>
         <div className="empty2"></div>
       <footer><Footer/></footer>
