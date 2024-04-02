@@ -1,14 +1,13 @@
 .gameGrid{
   display: grid;
   height: 100vh;
-  grid-template-columns: 0.5fr 4fr 0.5fr;
+  grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: auto 4fr auto;
   grid-template-areas:
-  "empty1 nav empty2"
-  "empty1 game empty2"
-  "empty1 footer empty2";
+  "side1 nav side2"
+  "side1 game side2"
+  "side1 footer side2";
 }
-
 iframe{
   width: 100%;
   height: 100%;
@@ -16,18 +15,32 @@ iframe{
 nav{
   grid-area: nav;
 }
-.empty1{
-  grid-area: empty1;
+.side1{
+  grid-area: side1;
+  width: 1fr; 
+  height:100vh;
 }
 .game{
   grid-area: game;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  width: 90vw;
 }
-.empty2{
-  grid-area: empty2;
+.side2{
+  grid-area: side2;
+  width: 5vw; 
+  height:100vh;
 }
 footer{
   grid-area: footer;
+}
+#fsBtt{
+  width: 100%;
+  height: 100%;
+  padding:20px;
+  border:0;
+  z-index: 1;
+  background: none;
 }

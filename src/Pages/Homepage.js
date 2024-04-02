@@ -16,7 +16,7 @@ export default function Homepage(){
         <Link to="/game" className="links">
           <img src={bttPlay} alt="play button"/>
         </Link>
-          <p className="question">Do we connect to play, or we play to connect?</p>
+        <p className="question">Do we connect to play, or we play to connect?</p>
       </div>
       <div className="empty2"></div>
       <footer><Footer/></footer>
