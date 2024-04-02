@@ -9,9 +9,7 @@ export default function Game(){
       <nav><Navbar/></nav>
         <div className="empty1"></div>
         <div className="game" >
-        <iframe frameborder="none" src="https://itch.io/embed-upload/10070636?color=000000" allowfullscreen="" width="1280" height="720" allowTransparency="true">
-          <a href="https://blazingworks.itch.io/networkedplay"></a>
-        </iframe>
+          <iframe frameborder="none" border="0" src="https://leon-fenzl.github.io/networkedplaywebplay/" allowTransparency="true"></iframe>
         </div>
         <div className="empty2"></div>
       <footer><Footer/></footer>
@@ -20,6 +18,9 @@ export default function Game(){
 }
 
 /*
+  <iframe frameborder="none" border="0" src="https://leon-fenzl.github.io/networkedplaywebplay/" allowTransparency="true">
+    
+  </iframe>
   <iframe frameborder="0" src="https://itch.io/embed-upload/9971335?color=333333" allowfullscreen="" width="1280" height="720">
     <a href="https://blazingworks.itch.io/networkedplay"></a>
   </iframe>

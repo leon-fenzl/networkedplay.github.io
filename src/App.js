@@ -16,5 +16,5 @@ export default function App(){
           <Route path="/research" element={<Research/>}/>
         </Routes>
     </BrowserRouter>
-  )
+  );
 }
