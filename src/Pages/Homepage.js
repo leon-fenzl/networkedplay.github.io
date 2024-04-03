@@ -7,14 +7,16 @@ import "../Components/Styles/homeBody.css"
 import "../Components/Styles/regularGrid.css"
 import "../Components/Styles/contentGrid.css"
 import bttPlay from "../Components/images/bttsPaulaSite_play.png";
+import homeBg from "../Components/images/homeBg.png";
 export default function Homepage(){
   return(
     <div className="home-grid">
       <nav><Navbar/></nav>
       <div className="empty1"></div>
       <div className="middle">
-        <Link to="/game" className="links">
-          <img src={bttPlay} alt="play button"/>
+        <div className="imgBg"></div>
+        <Link to="/game">
+          <img src={bttPlay} id="bttPlay" alt="btt-play"/>
         </Link>
         <p className="question">Do we connect to play, or we play to connect?</p>
       </div>
@@ -23,3 +25,6 @@ export default function Homepage(){
     </div>
   );
 }
+/*
+<img src={homeBg} id="homeBg" alt="home-Bg"/>
+*/

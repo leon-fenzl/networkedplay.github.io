@@ -1,4 +1,8 @@
 
+@font-face {
+  font-family: 'Dosis-Extralight';
+  src: url('../Styles/Fonts/Dosis/static/Dosis-ExtraLight.ttf');
+}
 .footer-flexbox{
   display: flex;
   width: 100%;
@@ -9,7 +13,7 @@
   /*background-color: rgba(245, 245, 245, 0.355);*/
 }
 .footer-text{
-  font-family:Helvetica, sans-serif;
+  font-family:Dosis-Extralight;
   font-weight: lighter;
   color: whitesmoke;
   text-decoration: none;

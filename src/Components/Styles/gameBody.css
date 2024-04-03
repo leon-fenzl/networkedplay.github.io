@@ -1,7 +1,7 @@
 .gameGrid{
   display: grid;
   height: 100vh;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 0.5fr 4fr 0.5fr;
   grid-template-rows: auto 4fr auto;
   grid-template-areas:
   "side1 nav side2"
@@ -9,7 +9,7 @@
   "side1 footer side2";
 }
 iframe{
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 nav{
@@ -26,7 +26,6 @@ nav{
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 90vw;
 }
 .side2{
   grid-area: side2;

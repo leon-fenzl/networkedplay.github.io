@@ -19,6 +19,7 @@ export default function Navbar(){
       </div>
       <ul className="menu">
         <div className="menuLinks">
+          <Link to="/game" className="linkName">play!</Link>
           <Link to="/about" className="linkName">about</Link>
           <Link to="/research" className="linkName">research</Link>
         </div>
