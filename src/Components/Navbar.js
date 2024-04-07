@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import {Link} from 'react-router-dom';
-import {FaBars} from 'react-icons/fa';
 import "./Styles/navbar.css";
 import imgMenu from "../Components/images/Btt_Menu.png";
 
 export default function Navbar(){
-  const DDMenu = ["about","research"]
+  const DDMenu = ["play!","about","research"]
   return(
     <div className="navbar">
       <Link to="/" className="Logo">

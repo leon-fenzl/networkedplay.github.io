@@ -12,30 +12,6 @@
   "empty1 gridCenter empty2"
   "empty1 footer empty2";
 }
-@media screen and (max-width: 720px) {
-  .regularGrid{
-    grid-template-columns: 4fr;
-    grid-template-rows: auto auto 4fr auto auto;
-    grid-template-areas:
-    "nav"
-    "empty1"
-    "gridCenter" 
-    "empty2"
-    "footer";
-  }
-}
-@media screen and (max-width: 480px) {
-  .regularGrid{
-    grid-template-columns: 4fr;
-    grid-template-rows: auto auto 4fr auto auto;
-    grid-template-areas:
-    "nav"
-    "empty1"
-    "gridCenter" 
-    "empty2"
-    "footer";
-  }
-}
 nav{
   grid-area: nav;
 }

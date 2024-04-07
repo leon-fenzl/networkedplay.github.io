@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'Dosis-Extralight';
   src: url('../Styles/Fonts/Dosis/static/Dosis-ExtraLight.ttf');
@@ -16,5 +15,4 @@
   font-family:Dosis-Extralight;
   font-weight: lighter;
   color: whitesmoke;
-  text-decoration: none;
 }

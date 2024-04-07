@@ -3,11 +3,11 @@ import {Link} from 'react-router-dom';
 import Navbar from "../Components/Navbar.js";
 import Footer from "../Components/Footer.js";
 import "../Components/Styles/body.css";
-import "../Components/Styles/homeBody.css"
-import "../Components/Styles/regularGrid.css"
-import "../Components/Styles/contentGrid.css"
+import "../Components/Styles/homeBody.css";
+import "../Components/Styles/regularGrid.css";
+import "../Components/Styles/contentGrid.css";
 import bttPlay from "../Components/images/bttsPaulaSite_play.png";
-import homeBg from "../Components/images/homeBg.png";
+
 export default function Homepage(){
   return(
     <div className="home-grid">
