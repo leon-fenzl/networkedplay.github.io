@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "https://networkedplay.art/static/css/main.1de89ee0.css",
-    "main.js": "https://networkedplay.art/static/js/main.a3223730.js",
+    "main.css": "https://networkedplay.art/static/css/main.56566cf4.css",
+    "main.js": "https://networkedplay.art/static/js/main.532c7eda.js",
     "static/media/siteBg.png": "https://networkedplay.art/static/media/siteBg.3377d9b5f2e0ca345089.png",
     "static/media/homeBg.png": "https://networkedplay.art/static/media/homeBg.27f5d009bceab2301fb8.png",
     "static/media/Dosis-ExtraLight.ttf": "https://networkedplay.art/static/media/Dosis-ExtraLight.f30ea17d890609d3a67b.ttf",
     "static/media/logoHover.png": "https://networkedplay.art/static/media/logoHover.b66ecba31fbe6e922097.png",
     "static/media/logoRegular.png": "https://networkedplay.art/static/media/logoRegular.dc38d4378a5c194a7a83.png",
-    "static/media/Aquatico-Regular.otf": "https://networkedplay.art/static/media/Aquatico-Regular.3c5900da6fbd7a2eaa65.otf",
     "index.html": "https://networkedplay.art/index.html",
-    "main.1de89ee0.css.map": "https://networkedplay.art/static/css/main.1de89ee0.css.map",
-    "main.a3223730.js.map": "https://networkedplay.art/static/js/main.a3223730.js.map"
+    "main.56566cf4.css.map": "https://networkedplay.art/static/css/main.56566cf4.css.map",
+    "main.532c7eda.js.map": "https://networkedplay.art/static/js/main.532c7eda.js.map"
   },
   "entrypoints": [
-    "static/css/main.1de89ee0.css",
-    "static/js/main.a3223730.js"
+    "static/css/main.56566cf4.css",
+    "static/js/main.532c7eda.js"
   ]
 }

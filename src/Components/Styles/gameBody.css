@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Dosis-Extralight';
+  src: url('../Styles/Fonts/Dosis/static/Dosis-ExtraLight.ttf');
+}
 .gameGrid{
   display: grid;
   height: 100vh;
@@ -35,11 +39,17 @@ nav{
 footer{
   grid-area: footer;
 }
-#fsBtt{
+.fsBtt{
+  display: flex;
   width: 100%;
   height: 100%;
   padding:20px;
   border:0;
   z-index: 1;
   background: none;
+}
+@media screen and (max-width: 1024px){
+  .fsBtt{
+    display: none;
+  }
 }

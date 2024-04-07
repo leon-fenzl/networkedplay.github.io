@@ -7,33 +7,19 @@ import "../Components/Styles/gameBody.css";
 /* width="1280" height="720"*/
 function Game(){
   const [goFS,setGoFS] = useState(false);
-  const [isDesktop,setIsDesktop] = useState(true);
   useEffect(()=>{
     console.log("must've been cliked");
     let e = document.getElementById("my-fullscreen");
     e.requestFullscreen();
   },[goFS]);
-
-  const checkWindowSize = () => {
-    let windowWidth;
-    if(typeof window!== 'undefined')
-    {
-      windowWidth = window.innerWidth
-    }
-    if(windowWidth>1024)
-    {
-      setIsDesktop(true)
-    }else{setIsDesktop(false)}
-}
   return(
     <div className="gameGrid">
       <nav><Navbar/></nav>
         <div className="side1"></div>
         <div className="game" >
-          (<button  id="fsBtt" onClick= {(e)=>{setGoFS(!goFS)}}>
+          <button className="fsBtt" onClick= {(e)=>{setGoFS(!goFS)}}>
             <iframe id = "my-fullscreen" src="https://leon-fenzl.github.io/networkedplaywebplay/" frameborder="none" border="0" aria-hidden="true" allowTransparency="true"></iframe>
-          </button>):()
-
+          </button>
         </div>
         <div className="side2"></div>
       <footer><Footer/></footer>

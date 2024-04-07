@@ -13,14 +13,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   image-rendering: none;
   width: auto;
-  height: 100%;
+  height: auto;
 }
 .imglogo{
   width: 270px;
   height: 22px;
+  cursor: pointer;
   background-image: url("../images/logoRegular.png");
   background-size: cover;
 }
@@ -31,30 +31,45 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  cursor: pointer;
   width: 100%;
   height: 100%;
 }
 .bars{
   display: none;
-  color: black;
-  
+  cursor: pointer;
+  background: none;
+  border: none;
+  z-index: 99;
 }
-.bars-menu{
-  display: none;
-}
+
 .menu{
   display: flex;
   justify-content: flex-end;
   align-items: center;
   justify-self: flex-end;
-  width: 100%;
   height: 100%;
 }
 .menuLinks{
   display: flex;
   justify-content:space-around;
   align-items: center;
+}
+.mobile-menu{
+  width: 100vw;
+  height: 100vh;
+  position:fixed;
+  top: 0;
+  left: 0;
+  background-color: #828282bd;
+  z-index: 1;
+}
+.mobile-menuLinks{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 .linkName{
   font-family: Dosis-Extralight;
@@ -63,11 +78,19 @@
   margin: 10px;
   text-decoration: none;
 }
+
 .linkName:hover{
   color: #FF00FF;
 }
-.btn{
-  color: #ffffff;
+.mobile-linkName{
+  font-family: Dosis-Extralight;
+  font-size: 24pt;
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+.mobile-linkName:hover{
+  color: #FF00FF;
 }
 @media screen and (max-width: 1024px){
   .menu{
