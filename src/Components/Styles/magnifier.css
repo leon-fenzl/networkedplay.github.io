@@ -1,0 +1,13 @@
+.imgMagContainer{
+  position:relative;
+  width: 100%;
+}
+.targetImg{
+  width: 100%;
+}
+.magnifieD{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+}

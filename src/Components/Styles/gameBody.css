@@ -25,6 +25,7 @@ nav{
   height:100vh;
 }
 .game{
+  z-index: 0;
   grid-area: game;
   display: flex;
   justify-content: center;
@@ -50,8 +51,10 @@ footer{
   z-index: 1;
   background: none;
 }
+/*
 @media screen and (max-width: 1024px){
   .fsBtt{
     display: none;
   }
 }
+*/

@@ -14,11 +14,11 @@ export default function About(){
       <div className="empty1"></div>
       <div className="gridCenter">
         <div className="contents">
-            <h2>Networked Play</h2>
+            <h2>About</h2>
             <br></br>
             <div className="about-texts">
               <h3>
-                <p><span>Networked Play</span> is an interactive experience that 
+                <p><span id="span1">Networked Play</span> is an interactive experience that 
                 delves into the dynamics of living systems, mathematical graphs, and philosophical inquiries. 
                 In its initial form, it presents an online game, whose narrative centres around the task of 
                 guiding brine shrimp (a.k.a. Artemia) to mix in the ocean, bringing up a reflection about 
@@ -31,9 +31,9 @@ export default function About(){
               <p className="img-info">Digital rendering sketch for the online game Networked Play.</p>
               <br></br>
               <h3>
-                Schools of brine shrimp were studied in researching the ecological impact that tiny aquatic 
-                organisms may have in mixing the ocean waters. Although their size as individuals has little 
-                impact on their surroundings, their collective swirling motion helps to redistribute energy, 
+                Schools of brine shrimp were studied in researching the <span id="span2">ecological impact that tiny aquatic 
+                organisms</span> may have in mixing the ocean waters. Although their size as individuals has little 
+                impact on their surroundings, their collective swirling motion helps to <span id="span1">redistribute energy</span>, 
                 salt, and nutrients throughout the layers of the ocean. This process plays an important role 
                 in regulating the climate and creating the marine plant life upon which many species depend for food.
               </h3>
@@ -42,7 +42,7 @@ export default function About(){
                 Brine shrimp are naturally drawn towards sources of light. This tendency allows scientists 
                 to manipulate their collective movement by controlling light sources such as lasers or LEDs. 
                 However, within their group, nobody is telling the Artemias where to go or what to do. 
-                Instead, they self-organise to reach their common target. They navigate and adjust their 
+                Instead, they <span id="span2">self-organise</span> to reach their common target. They navigate and adjust their 
                 paths, ensuring they avoid collisions with each other along the way. 
               </h3>
               <br></br>
@@ -57,7 +57,7 @@ export default function About(){
                 In the online game, players connect as the master in a network of brine shrimp. 
                 They move towards the light, whose position and extent are controlled by the master. 
                 The mission is to guide the Artemias toward six different rocks and make them complete 
-                a circuit without backtracking—a reference to ‘Konigsberg bridge problem’, the 
+                a circuit without backtracking—a reference to <span id="span2">‘Konigsberg bridge problem’</span>, the 
                 underpinnings of graph theory.
               </h3>
               <br></br>
@@ -66,7 +66,7 @@ export default function About(){
                 they can control the swarm of Artemias attracting them with their light, but it is 
                 the same light that casts a shadow when pointed to a rock — preventing the group 
                 from reaching their target. To accomplish this task, the master will have to pass 
-                their (en)lightening power onto the rocks, so that these irradiate light themselves 
+                their <span id="span3">(en)lightening power</span> onto the rocks, so that these irradiate light themselves 
                 and the Artemias can thus go towards them. 
               </h3>
               <br></br>
@@ -90,7 +90,7 @@ export default function About(){
               <br></br>
               <h3>
                 The scope of making the Artemias move towards the light and 
-                completing the circuit symbolically represents <span>churning the waters in the ocean </span> 
+                completing the circuit symbolically represents <span id="span1">churning the waters in the ocean </span> 
                 ( or the fluid in the space ). It refers to the notion that 
                 within a network, the collective effect is greater than the sum of its 
                 parts. Just as the movement of Artemias collectively alters their environment, 
@@ -101,8 +101,8 @@ export default function About(){
                 In a collaboration with Dr. Prof. Tobias Seidl (Westfälisches Institut 
                 für Bionik, Bocholt, Germany) and Claudia Kruschel (Marine ecologist, 
                 Berlin, Germany), Paula Nishijima has researched into the swarming behaviour 
-                of Artemias, which originated the framework for the ludo-narrative of 
-                <span>Networked Play’s </span> online game. The footage of the experiments performed 
+                of Artemias, which originated the framework for the ludo-narrative of
+                <span id="span1"> Networked Play’s </span> online game. The footage of the experiments performed 
                 with Artemias in the lab were used for a video installation that is 
                 going to be exhibited at ETOPIA Center for Art and Technology together
                 with the online game and the research mapping.
@@ -112,7 +112,6 @@ export default function About(){
             <div className="line"></div>
             <br></br>
             <h2>Credits</h2>
-            <br></br>
             <div className="credit-block">
               <h3>
                 Concept & visuals: Paula Kaori Nishijima
@@ -123,7 +122,7 @@ export default function About(){
               </h3>
               <br/>
               <h3>
-                Game and web development: León Fenzl
+                Game & web development: León Fenzl
               </h3>
               <br/>
               <h3>
@@ -136,7 +135,6 @@ export default function About(){
             </div>
             <br></br>
             <h2>Thank you</h2>
-            <br></br>
             <div className="thanks-block">
             <h3>
               Andre Asai<br/>

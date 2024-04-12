@@ -12,6 +12,7 @@
   /*background-color: rgba(245, 245, 245, 0.355);*/
 }
 .footer-text{
+  text-align: justify;
   font-family:Dosis-Extralight;
   font-weight: lighter;
   color: whitesmoke;

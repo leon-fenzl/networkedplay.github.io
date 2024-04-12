@@ -5,7 +5,7 @@ export default function Footer(){
     <div className="footer-flexbox">
       <div className="footer-text">
         <p>
-          Supported by ARTeCHÓ, co-funded by the European Union, 
+          Co-funded by the European Union and Supported by ARTeCHÓ,
           initiative created by SERN – Startup Europe Regions Network (Belgium), 
           Baltan Laboratories (Netherlands), 
           FZC-Etopia Center for Art & Technology (Spain), 

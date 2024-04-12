@@ -9,15 +9,24 @@
 .contents{
   font-family: 'Dosis-Extralight';
   color: whitesmoke;
+    h3{ 
+    text-align: justify;
+  }
 }
 .about-texts{
-  padding: 10px;
   display: block;
   justify-content: center;
   align-items: center;
 }
-span{
+#span1{
   font-style: italic;
+}
+#span2{
+  text-decoration: underline;
+}
+#span3{
+  font-style: italic;
+  text-decoration: underline;
 }
 .imgSrc{
   width: 100%;
@@ -32,12 +41,12 @@ span{
   background-color: whitesmoke;
 }
 .credit-block{
-  padding-left: 10px;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
 }
 .thanks-block{
-  padding-left: 10px;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -50,4 +59,12 @@ span{
 #imgBacker2{
   width: 25%;
 }
-
+.research{
+  width: 100%;
+  height: 100%;
+  font-family: 'Dosis-Extralight';
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
