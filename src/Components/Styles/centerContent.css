@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Dosis-Extralight';
+  src: url('../Styles/Fonts/Dosis/static/Dosis-ExtraLight.ttf');
+}
+@font-face {
+  font-family: 'Dosis-Variable';
+  src: url('../Styles/Fonts/Dosis/Dosis-VariableFont_wght.ttf');
+}
+.contents{
+  font-family: 'Dosis-Extralight';
+  color: whitesmoke;
+}
+.about-texts{
+  padding: 10px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+span{
+  font-style: italic;
+}
+.imgSrc{
+  width: 100%;
+}
+.img-info{
+  left: 0;
+  font-style: italic;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: whitesmoke;
+}
+.credit-block{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.thanks-block{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.img-backers{
+  display: flex;
+}
+#imgBacker1{
+  width: 10%;
+}
+#imgBacker2{
+  width: 25%;
+}
+

@@ -5,8 +5,9 @@ import Footer from "../Components/Footer.js";
 //import "../Components/Styles/body.css";
 import "../Components/Styles/homeBody.css";
 import "../Components/Styles/regularGrid.css";
-import "../Components/Styles/contentGrid.css";
+import "../Components/Styles/centerContent.css";
 import bttPlay from "../Components/images/bttsPaulaSite_play.png";
+import homeBg from "../Components/images/homeBg.png"
 
 export default function Homepage(){
   return(
@@ -14,7 +15,7 @@ export default function Homepage(){
       <nav><Navbar/></nav>
       <div className="empty1"></div>
       <div className="middle">
-        <div className="imgBg"></div>
+        <img src={homeBg} className="imgBg"/>
         <Link to="/game">
           <img src={bttPlay} id="bttPlay" alt="btt-play"/>
         </Link>

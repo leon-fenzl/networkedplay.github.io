@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "https://networkedplay.art/static/css/main.56566cf4.css",
-    "main.js": "https://networkedplay.art/static/js/main.532c7eda.js",
+    "main.css": "https://networkedplay.art/static/css/main.1b87168d.css",
+    "main.js": "https://networkedplay.art/static/js/main.cc0fb5b9.js",
     "static/media/siteBg.png": "https://networkedplay.art/static/media/siteBg.3377d9b5f2e0ca345089.png",
     "static/media/homeBg.png": "https://networkedplay.art/static/media/homeBg.27f5d009bceab2301fb8.png",
+    "static/media/Networked_play_research_mapping2_no_credits.png": "https://networkedplay.art/static/media/Networked_play_research_mapping2_no_credits.a98e5edf8249e049d5d7.png",
+    "static/media/About_page_artemias_02.png": "https://networkedplay.art/static/media/About_page_artemias_02.947630e3365570dc25fe.png",
+    "static/media/background_home_example2.png": "https://networkedplay.art/static/media/background_home_example2.05cf5268ebaf93079a9f.png",
+    "static/media/About_page_artemias_03.jpg": "https://networkedplay.art/static/media/About_page_artemias_03.46d24d1bb3b172e1378f.jpg",
+    "static/media/Dosis-VariableFont_wght.ttf": "https://networkedplay.art/static/media/Dosis-VariableFont_wght.0e7b67016bff1c785ebd.ttf",
     "static/media/Dosis-ExtraLight.ttf": "https://networkedplay.art/static/media/Dosis-ExtraLight.f30ea17d890609d3a67b.ttf",
+    "static/media/EN_Co-fundedbytheEU_RGB_WHITE Outline.png": "https://networkedplay.art/static/media/EN_Co-fundedbytheEU_RGB_WHITE Outline.375f3abe9311c0686c9e.png",
     "static/media/logoHover.png": "https://networkedplay.art/static/media/logoHover.b66ecba31fbe6e922097.png",
     "static/media/logoRegular.png": "https://networkedplay.art/static/media/logoRegular.dc38d4378a5c194a7a83.png",
     "index.html": "https://networkedplay.art/index.html",
-    "main.56566cf4.css.map": "https://networkedplay.art/static/css/main.56566cf4.css.map",
-    "main.532c7eda.js.map": "https://networkedplay.art/static/js/main.532c7eda.js.map"
+    "main.1b87168d.css.map": "https://networkedplay.art/static/css/main.1b87168d.css.map",
+    "main.cc0fb5b9.js.map": "https://networkedplay.art/static/js/main.cc0fb5b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.56566cf4.css",
-    "static/js/main.532c7eda.js"
+    "static/css/main.1b87168d.css",
+    "static/js/main.cc0fb5b9.js"
   ]
 }

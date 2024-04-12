@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 import Navbar from "../Components/Navbar.js";
 import Footer from "../Components/Footer.js";
-import "../Components/Styles/regularGrid.css";
+import imgResearch from "../Components/images/research page/Networked_play_research_mapping2_no_credits.png";
 export default function Research(){
   return(
     <div className="regularGrid">
@@ -10,19 +10,10 @@ export default function Research(){
       <div className="empty1"></div>
       <div className="gridCenter">
         <div className="contents">
-          <div className="cels">
-            <h2>research</h2>
-            <h3>
-              Dummy text
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna 
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit 
-              esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-              occaecat cupidatat non proident, sunt in culpa qui officia 
-              deserunt mollit anim id est laborum."
-            </h3>
+          <h2>Research</h2>
+          <div className="research">
+            <img src={imgResearch} className="imgSrc"/>
+            <p className="img-info">Digital rendering sketch for the online game Networked Play.</p>
           </div>
         </div>
       </div>

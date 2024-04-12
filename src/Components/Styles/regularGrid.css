@@ -19,12 +19,8 @@ nav{
   grid-area: empty1;
 }
 .gridCenter{
+  
   grid-area: gridCenter;
-  color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .empty2{
   grid-area: empty2;
