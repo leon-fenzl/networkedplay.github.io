@@ -13,6 +13,14 @@
     text-align: justify;
   }
 }
+.research-contents{
+  position: relative;
+  font-family: 'Dosis-Extralight';
+  color: whitesmoke;
+    h3{ 
+    text-align: justify;
+  }
+}
 .about-texts{
   display: block;
   justify-content: center;
@@ -34,6 +42,7 @@
 .img-info{
   left: 0;
   font-style: italic;
+  display: flex;
 }
 .line{
   width: 100%;
@@ -67,4 +76,21 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.fsbttHolder{
+  display: flex;
+  justify-content: end;
+  width: 75%;
+}
+.fsbtt{
+  background-color: none;
+  border: none;
+  background-image: url("../images/fullScreeOn.png");
+  background-position:center;
+  width: 32px;
+  height: 32px;
+  justify-self: flex-end;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
 }

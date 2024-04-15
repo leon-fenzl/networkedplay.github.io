@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Components/Styles/magnifier.css";
-
+import imgResearch from './images/research page/Networked_play_research_mapping2_no_credits.png';
 const Magnifier = ({imageUrl}) =>{
 
   const [position, setPosition] = useState({ x:0, y:0});

@@ -9,7 +9,7 @@ function Game(){
   const [goFS,setGoFS] = useState(false);
   useEffect(()=>{
     console.log("must've been cliked");
-    let e = document.getElementById("my-fullscreen");
+    let e = document.getElementById("btt-fullscreen");
     e.requestFullscreen();
   },[goFS]);
   return(
@@ -18,7 +18,7 @@ function Game(){
         <div className="side1"></div>
         <div className="game" >
           <button className="fsBtt" onClick= {(e)=>{setGoFS(!goFS)}}>
-            <iframe id = "my-fullscreen" src="https://leon-fenzl.github.io/networkedplaywebplay/" frameborder="none" border="0" aria-hidden="true" allowTransparency="true"></iframe>
+            <iframe id = "btt-fullscreen" src="https://leon-fenzl.github.io/networkedplaywebplay/" frameborder="none" border="0" aria-hidden="true" allowTransparency="true"></iframe>
           </button>
         </div>
         <div className="side2"></div>
