@@ -68,29 +68,29 @@
 #imgBacker2{
   width: 25%;
 }
-.research{
-  width: 100%;
-  height: 100%;
+.research-contents{
   font-family: 'Dosis-Extralight';
   color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 .fsbttHolder{
   display: flex;
   justify-content: end;
   width: 75%;
 }
+.fsDiv{
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
 .fsbtt{
-  background-color: none;
+  background-color: rgba(230, 230, 250, 0);
   border: none;
-  background-image: url("../images/fullScreeOn.png");
+  background-image: url("../images/fsButton.png");
   background-position:center;
-  width: 32px;
-  height: 32px;
-  justify-self: flex-end;
-  z-index: 1;
-  bottom: 0;
-  right: 0;
+  width: 20px;
+  height: 20px;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { FullScreen,useFullScreenHandle } from "react-full-screen";
 import {Link} from "react-router-dom";
 import Navbar from "../Components/Navbar.js";
 import Footer from "../Components/Footer.js";
@@ -7,12 +7,7 @@ import Footer from "../Components/Footer.js";
 import imgResearch from "../Components/images/research page/Networked_play_research_mapping2_no_credits.png";
 
 export default function Research(){
-  const [goFS,setGoFS] = useState(false);
-  useEffect(()=>{
-    console.log("must've been cliked");
-    let e = document.getElementById("imgSrc");
-    e.requestFullscreen();
-  },[goFS]);
+  const handle = useFullScreenHandle();
   return(
     <div className="regularGrid">
       <nav><Navbar/></nav>
@@ -21,13 +16,15 @@ export default function Research(){
         <div className="research-contents">
           <h2>Research</h2>
           <br/>
-          <img src={imgResearch} className="imgSrc" id="imgSrc"/>
-          <p className="img-info">
-            Digital rendering sketch for the online game Networked Play.
-            <div className="fsbttHolder">
-              <button className="fsbtt" onClick= {(e)=>{setGoFS(!goFS)}}></button>
-            </div>
-          </p>
+          <FullScreen className="fsDiv" handle={handle}>
+            <img src={imgResearch} className="imgSrc" id="imgSrc"/>
+            <p className="img-info">
+              Digital rendering sketch for the online game Networked Play.
+              <div className="fsbttHolder">
+                <button className="fsbtt" onClick={handle.enter}></button>
+              </div>
+            </p>
+          </FullScreen >
         </div>
       </div>
       <div className="empty2"></div>
