@@ -14,15 +14,13 @@ export default function About(){
       <div className="empty1"></div>
       <div className="gridCenter">
         <div className="contents">
-            <h2>About</h2>
-            <br></br>
             <div className="about-texts">
               <h3>
                 <p><span id="span1">Networked Play</span> is an interactive experience that 
                 delves into the dynamics of living systems, mathematical graphs, and philosophical inquiries. 
                 In its initial form, it presents an online game, whose narrative centres around the task of 
                 guiding brine shrimp (a.k.a. Artemia) to mix in the ocean, bringing up a reflection about 
-                their individual role within a larger collective context. Created by the visual artist Paula Nishijima, 
+                our individual role within a larger collective context. Created by the visual artist Paula Nishijima, 
                 the artistic research project was developed as part of the ARTeCHÓ – Art, Economy & Technology Fellowship, 2023.
                 </p> 
               </h3>
@@ -114,7 +112,7 @@ export default function About(){
             <h2>Credits</h2>
             <div className="credit-block">
               <h3>
-                Concept & visuals: Paula Kaori Nishijima
+               <span> Concept & visuals: Paula Nishijima<Link id="link-to-sites" to="http://paulanishijima.com"> (http://paulanishijima.com)</Link></span>
               </h3>
               <br/>
               <h3>
@@ -122,7 +120,7 @@ export default function About(){
               </h3>
               <br/>
               <h3>
-                Game & web development: León Fenzl
+                <span>Game & web development: <Link id="link-to-sites" to="https://leonfenzl.com">León Fenzl</Link></span>
               </h3>
               <br/>
               <h3>
@@ -166,7 +164,6 @@ export default function About(){
               Tobias Seidl<br/>
               </h3>
             </div>
-            <br/>
             <h3>
               Co-funded by the European Union and supported by ARTeCHÓ, 
               initiative created by SERN – Startup Europe Regions Network 

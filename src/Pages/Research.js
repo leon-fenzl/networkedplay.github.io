@@ -14,16 +14,11 @@ export default function Research(){
       <div className="empty1"></div>
       <div className="gridCenter">
         <div className="research-contents">
-          <h2>Research</h2>
-          <br/>
           <FullScreen className="fsDiv" handle={handle}>
             <img src={imgResearch} className="imgSrc" id="imgSrc"/>
-            <p className="img-info">
-              Digital rendering sketch for the online game Networked Play.
-              <div className="fsbttHolder">
-                <button className="fsbtt" onClick={handle.enter}></button>
-              </div>
-            </p>
+            <div className="fsbttHolder">
+              <button className="fsbtt" onClick={handle.enter}></button>
+            </div>
           </FullScreen >
         </div>
       </div>

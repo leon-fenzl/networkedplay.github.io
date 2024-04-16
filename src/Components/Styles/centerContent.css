@@ -7,6 +7,7 @@
   src: url('../Styles/Fonts/Dosis/Dosis-VariableFont_wght.ttf');
 }
 .contents{
+  font-size: 14pt;
   font-family: 'Dosis-Extralight';
   color: whitesmoke;
     h3{ 
@@ -15,16 +16,15 @@
 }
 .research-contents{
   position: relative;
-  font-family: 'Dosis-Extralight';
-  color: whitesmoke;
-    h3{ 
-    text-align: justify;
-  }
 }
 .about-texts{
   display: block;
   justify-content: center;
   align-items: center;
+}
+#link-to-sites{
+  color: whitesmoke;
+  text-decoration: none;
 }
 #span1{
   font-style: italic;
@@ -41,7 +41,6 @@
 }
 .img-info{
   left: 0;
-  font-style: italic;
   display: flex;
 }
 .line{
@@ -66,18 +65,22 @@
   width: 10%;
 }
 #imgBacker2{
-  width: 25%;
+  width: 20%;
 }
+@media screen and (max-width: 1024px){
+  #imgBacker1{
+    width: 20%;
+  }
+  #imgBacker2{
+    width:30%;
+  }
+}
+/*----------------------------------------------------------------*/
 .research-contents{
   font-family: 'Dosis-Extralight';
   color: whitesmoke;
   width: 100%;
   height: 100%;
-}
-.fsbttHolder{
-  display: flex;
-  justify-content: end;
-  width: 75%;
 }
 .fsDiv{
   height: 90%;
@@ -85,6 +88,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: left;
+}
+.fsbttHolder{
+  display: flex;
+  justify-content: end;
+  width: 100%;
 }
 .fsbtt{
   background-color: rgba(230, 230, 250, 0);
