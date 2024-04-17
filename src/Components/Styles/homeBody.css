@@ -21,20 +21,52 @@ nav{
 }
 .middle{
   grid-area: middle;
+}
+.empty2{
+  grid-area: empty2;
+}
+.home-content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+  height: 100%;
+  width: 100%;
 }
+.frame-div{
+  position: absolute;
+  z-index: -1;
+}
+.homeFrame{
+  border: 0;
+  border-radius: 100%;
+}
+@media screen and (min-width: 1024px){
+  .homeFrame{
+    width: 750px;
+    height: 750px;
+  }
+}
+@media screen and (max-width: 1023px){
+  .homeFrame{
+    width: 500px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 720px){
+  .homeFrame{
+    width: 450px;
+    height: 450px;
+  }
+}
+/*
 .imgBg{
   position: absolute;
   z-index: -1;
   max-width:100%;
 }
-.empty2{
-  grid-area: empty2;
-}
+*/
 .question{
   font-family:Dosis-Extralight;
   font-size: 26px;

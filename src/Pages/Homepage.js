@@ -7,7 +7,8 @@ import "../Components/Styles/homeBody.css";
 import "../Components/Styles/regularGrid.css";
 import "../Components/Styles/centerContent.css";
 import bttPlay from "../Components/images/bttsPaulaSite_play.png";
-import homeBg from "../Components/images/homeBg.png"
+import homeVideo from "../Components/images/NP_video_home_low.mp4"
+//import homeBg from "../Components/images/"
 
 export default function Homepage(){
   return(
@@ -15,11 +16,15 @@ export default function Homepage(){
       <nav><Navbar/></nav>
       <div className="empty1"></div>
       <div className="middle">
-        <img src={homeBg} className="imgBg"/>
-        <Link to="/game">
-          <img src={bttPlay} id="bttPlay" alt="btt-play"/>
-        </Link>
-        <p className="question">Do we connect to play, or we play to connect?</p>
+        <div className="home-content">
+          <div className="frame-div">
+            <video className="homeFrame" src={homeVideo} allowTransparency="true" autoplay="true" allow="autoplay" loop muted></video>
+          </div>
+          <Link to="/game">
+            <img src={bttPlay} id="bttPlay" alt="btt-play"/>
+          </Link>
+          <p className="question">Do we connect to play, or we play to connect?</p>
+        </div>
       </div>
       <div className="empty2"></div>
       <footer><Footer/></footer>
@@ -27,5 +32,6 @@ export default function Homepage(){
   );
 }
 /*
-<img src={homeBg} id="homeBg" alt="home-Bg"/>
+  frameborder="none" border="0" aria-hidden="true" allowTransparency="true"
+  <img src={homeBg} className="imgBg"/>
 */

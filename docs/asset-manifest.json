@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "https://networkedplay.art/static/css/main.265b50a5.css",
-    "main.js": "https://networkedplay.art/static/js/main.c5ec8c33.js",
-    "static/media/homeBg.png": "https://networkedplay.art/static/media/homeBg.27f5d009bceab2301fb8.png",
+    "main.css": "https://networkedplay.art/static/css/main.8e47c611.css",
+    "main.js": "https://networkedplay.art/static/js/main.cadd5ab1.js",
+    "static/media/NP_video_home_low.mp4": "https://networkedplay.art/static/media/NP_video_home_low.777c13236756ac9a24aa.mp4",
     "static/media/Networked_play_research_mapping2_no_credits.png": "https://networkedplay.art/static/media/Networked_play_research_mapping2_no_credits.a98e5edf8249e049d5d7.png",
     "static/media/About_page_artemias_02.png": "https://networkedplay.art/static/media/About_page_artemias_02.947630e3365570dc25fe.png",
     "static/media/background_home_example2.png": "https://networkedplay.art/static/media/background_home_example2.05cf5268ebaf93079a9f.png",
@@ -13,11 +13,11 @@
     "static/media/logoHover.png": "https://networkedplay.art/static/media/logoHover.b66ecba31fbe6e922097.png",
     "static/media/logoRegular.png": "https://networkedplay.art/static/media/logoRegular.dc38d4378a5c194a7a83.png",
     "index.html": "https://networkedplay.art/index.html",
-    "main.265b50a5.css.map": "https://networkedplay.art/static/css/main.265b50a5.css.map",
-    "main.c5ec8c33.js.map": "https://networkedplay.art/static/js/main.c5ec8c33.js.map"
+    "main.8e47c611.css.map": "https://networkedplay.art/static/css/main.8e47c611.css.map",
+    "main.cadd5ab1.js.map": "https://networkedplay.art/static/js/main.cadd5ab1.js.map"
   },
   "entrypoints": [
-    "static/css/main.265b50a5.css",
-    "static/js/main.c5ec8c33.js"
+    "static/css/main.8e47c611.css",
+    "static/js/main.cadd5ab1.js"
   ]
 }
