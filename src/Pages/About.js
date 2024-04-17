@@ -112,7 +112,7 @@ export default function About(){
             <h2>Credits</h2>
             <div className="credit-block">
               <h3>
-               <span> Concept & visuals: Paula Nishijima<Link id="link-to-sites" to="http://paulanishijima.com"> (http://paulanishijima.com)</Link></span>
+               <span> Concept & visuals: <Link id="link-to-sites" to="http://paulanishijima.com">Paula Nishijima</Link></span>
               </h3>
               <br/>
               <h3>
